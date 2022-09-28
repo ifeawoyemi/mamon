@@ -5,74 +5,209 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="icon" type="images/png" sizes="32*32" href=".images/favicon-32*32.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
+       <div class="logo">
         <img src="/images/Group 2.png" alt="">
+        <h1>Mamon</h1>
+       </div>
 
-        <div>
+        <div class="hamgurger-menu">
+         <div>
+            <img src="/images/harmbuger-menu.png" alt="">
+            </div>
+        </div>
+
+        <div class="navbar">
             <ul>
-              <li><a href="">Service</a></li>
-              <li><a href="">Client</a></li>
-              <li><a href="">Our team</a></li>
-              <img src="/images/Vector.png" alt="">
-              <li><a href="">Contact us</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#client">Client</a></li>
+              <li><a href="#team">Our team</a></li>
+              <li><img src="/images/Vector.png" onclick="toggleDark()" id="sun" alt=""></li>
+              <li><a href="#contact" id="contact">Contact us</a></li>
             </ul>
         </div>
     </nav>
 
-    <!----this is the section for ----->
-    <section class="">
+    <!---------section for ----------->
+    <section class="info">
         <h1>We're an independent development agency.</h1>
         <p>We understand the intricacies of web development inside-out. That's why we build rock-solid Mobile and Web applications enriched with user-centered visual experiences.</p>
         <button>Contact us</button>
     </section>
 
-    <!----section for services----->
-    <section>
-        <div>
+<!-- <div class="line_break"> 
+    <hr>
+    <p>OUR SERVICES</p>
+    <hr>
+ </div> -->
+
+    <!-----------section for services--------->
+
+    <section id="service" class="services_section">
+        <div class="services">
             <img src="/images/smartphone.png" alt="">
-        <div class="">
-            <h5>Mobile development</h5>
+            <div class="service_text">
+                <h5>Mobile development</h5>
             <p>We develop mobile apps for all contemporary 
                 mobile platforms. Mamon team builds 
                 native and cross-platform solutions.</p>
+            </div>
         </div>
-        </div>
-        <div>
+
+        <div class="services">
             <img src="/images/Union.png" alt="">
-        <div class="">
-            <h5>Web development</h5>
+            <div class="service_text">
+                <h5>Web development</h5>
             <p>Mamon offers full range of services from various
                 CMS and frameworks based websites to complex
                 ERP/CRM solutions and e-commerce stores.</p>
+            </div>
         </div>
-        </div>
-        <div>
+
+        <div class="services">
             <img src="/images/new.png" alt="">
-        <div class="">
+           <div class="service_text">
             <h5>Product Design</h5>
             <p>We create design given the product audience,
                 goal, business domain, technology and
                 the platform for the solution.</p>
+           </div>
         </div>
-        </div>
-        <div>
+
+        <div class="services">
             <img src="/images/test.png" alt="">
-        <div class="">
-            <h5>Quality Assurance</h5>
+            <div class="service_text">
+                <h5>Quality Assurance</h5>
             <p>Our QA team ensures high standard of 
                 quality of products delivered.
                 </p>
-        </div>
+            </div>
         </div>
     </section>
 
-    <!----section for clients----->
-    <section>
-        <img src="" alt="">
+    <!-- <div class="line_break">
+        <hr>
+        <p>OUR CLIENTS</p>
+        <hr>
+    </div> -->
+
+    <!----------section for clients--------->
+    <section id="client" class="client">  
+        <img src="/images/logo-lightspeed.png" alt="">
+        <img src="/images/TRVL.png" alt="">
+        <img src="/images/logo-spider-strategies.png" alt="">
+        <img src="/images/logo-tripadvisor (1).png" alt="">
+        <img src="/images/SHUTTERFLY.png" alt="">
+        <img src="/images/logo-decos.png" alt="">
+        <img src="/images/logo-tiqets (1).png" alt="">
+        <img src="/images/logo-hotelchamp.png" alt="">
+        <img src="/images/logo-flitsmeister.png" alt="">
+        <img src="/images/logo-sap.png" alt="">
+        <img src="/images/logo-redkix.png" alt="">
+        <img src="/images/logo-nos.png" alt="">
     </section>
+
+    <!-- <div class="line_break">
+        <hr>
+        <p>OUR TEAM</p>
+        <hr>
+    </div> -->
+
+    <!-----section for team------->
+    <section id="team" class="team_section">
+        <div class="team">
+            <img src="/images/vadim.png" alt="">
+            <div class="team-info">
+                <h1>Vadim</h1>
+                <p>Managing Director</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/sergey.png" alt="">
+            <div class="team_info">
+                <h1>Sergey</h1>
+                <p>Technology Director</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/andrey.png" alt="">
+            <div class="team_info">
+                <h1>Andrey</h1>
+                <p>Front-end Developer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/alex.png" alt="">
+            <div class="team_info">
+                <h1>Alex</h1>
+                <p>Front-end Developer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/agniska.png" alt="">
+            <div class="team_info">
+                <h1>Agneshka</h1>
+                <p>Mobile Developer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/dmity.png" alt="">
+            <div class="team_info">
+                <h1>Dmitry</h1>
+                <p>Back-end Developer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/artyom.png" alt="">
+            <div class="team_info">
+                <h1>Artyom</h1>
+                <p>Back-end Developer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/evengy.png" alt="">
+            <div class="team_info">
+                <h1>Evgeny</h1>
+                <p>Product Designer</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <img src="/images/tom.png" alt="">
+            <div class="team_info">
+                <h1>Tom</h1>
+                <p>Product Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="line_break">
+        <hr>
+        <p>CONTACT</p>
+        <hr>
+    </div> -->
+
+    <footer id="contact">
+        <img src="/images/Group 2.png" alt="">
+        <div class="social_media">
+            <img src="/images/github.png" alt="">
+            <img src="/images/Be.png" alt="">
+            <img src="/images/linkedin.png" alt="">
+            <img src="/images/polygon.png" alt="">
+        </div>
+    </footer>
+
 
     <script src="main.js"></script>
 </body>

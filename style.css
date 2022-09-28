@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root{
+    --light-blue: #5528FF;
+    --gray: #4F4F4F;
+    --black: #000000;
+    --white: #fff;
+    --light-gray: #B2B2B2;
+    --grayish: #F7F7F7;
+}
+
+hr{
+    width: 100%;
+}
+
+.navbar img {
+    cursor: pointer; 
+}
+
+.dark-mode{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: 0px 25px;  */
+}
+
+/* .line_break{ 
+    display: flex;
+    justify-content: center;
+    width: 1px;
+} */
+
+
+/* *********nav section start********* */
+
+.logo{
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   text-align: center;
+}
+
+.logo img{
+    width: 8%;
+}
+
+.logo h1{
+    text-align: center;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+nav{
+    height: 50px;
+    width: 90%;
+    /*background-color: var(--light-blue);*/
+    position: relative;
+    margin: 15px 5px;
+}
+
+
+.hamgurger-menu{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.navbar{
+    display: none;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--light-blue);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    color: purple;
+    transition: 0.4s ease-in;
+}
+
+
+/* ************info section start here************* */
+
+.info{
+    margin: 47px 5px;
+}
+
+.info h1{
+    margin-bottom: 46px;
+}
+
+.info p{
+    color: var(--gray);
+    font-weight: 400;
+}
+
+.info button{
+    width: 5rem;
+    height: 30px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    margin: 1.5rem 0px;
+}
+
+
+/* ************service section start here*************** */
+
+.services{
+    display: flex;
+    margin: 4rem 0rem;
+    gap: 30px;
+}
+
+.services img{
+    width: 60px;
+    color: var(--light-blue);
+}
+
+.service_text h5{
+    margin-bottom: 20px;
+}
+.service_text p{
+    color: var(--light-gray);
+    font-weight: 400;
+}
+
+
+/* ************client setion************* */
+
+.client{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    margin-top: 85px;
+}
+
+.client img{
+    color: var(--light-gray);
+}
+
+/* **********team sectiom************ */
+
+.team_section{
+    margin-top: 80px;
+}
+
+.team_section .team{
+    display: flex;
+    padding-top: 50px;
+    gap: 25px;
+}
+
+/* the footer */
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grayish);
+    margin-top: 50px;
+}
+
+footer .social_media img{
+    padding-right: 25px;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    body{
+       max-width: 70%;
+       margin: auto;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .hamgurger-menu{
+      display: none;
+    }
+
+    .navbar{
+        width: 437px;
+        /* height: 24px; */
+        position: absolute;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-evenly;
+         margin: 0px 10px; 
+    }
+
+    .navbar ul li{
+        float: left;
+        padding: 0px 10px;
+    }
+
+    .navbar ul li a{
+        color: var(--black);
+    }
+
+    .dark-mode .navbar ul li a{
+        color: var(--white);
+    }
+
+    .navbar ul #contact{
+        background-color: var(--light-blue);
+        width: 73px;
+        height: 17px;
+        color: var(--white);
+        border: none;
+        border-radius: 10px;
+        margin: 93px 0px;
+    }
+    .info{
+        
+        margin-top: 133px;
+    }
+    .info h1{
+        font-size: 57px;
+    }
+    .info p{
+        max-width: 741px;
+        font-size: 32px;
+    }
+
+    .info button{
+        width: 235px;
+        height: 60px;
+        background-color: var(--light-blue);
+        color: var(--white);
+        border: none;
+        border-radius: 10px;
+        margin: 1.5rem 0px;
+    }
+
+    .services_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .service_text{
+        width: 45%;
+    }
+
+    .client{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+
+    .team_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    footer{
+       width: 1024px;
+       object-fit: contain;
+    }
+}

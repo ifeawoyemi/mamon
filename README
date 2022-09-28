@@ -1,0 +1,44 @@
+# Devcareer - Mamon landing page
+
+This is a solution to the [Mamon landing page](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The Task](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+
+## Overview
+
+### The Task
+Users should be able to:
+
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the light and dark mode
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+This is the screenshot of the task
+
+### Links
+
+- Solution URL: [Github url](https://your-solution-url.com)
+- Live Site URL: [live url](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- vanilla Javascript
+
+**Happy coding
