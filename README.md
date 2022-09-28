@@ -27,8 +27,8 @@ This is the screenshot of the task
 
 ### Links
 
-- Solution URL: [Github url](https://github.com/ifeawoyemi/mamon)
-- Live Site URL: [live url](https://your-live-site-url.com)
+- Solution URL: [https://mamon-landing-page.netlify.app/](https://github.com/ifeawoyemi/mamon)
+- Live Site URL: [https://mamon-landing-page.netlify.app/](https://mamon-landing-page.netlify.app/)
 
 ## My process
 
