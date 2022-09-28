@@ -1,6 +1,6 @@
 # Devcareer - Mamon landing page
 
-This is a solution to the [Mamon landing page](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
+This is my solution to the [Mamon landing page](https://www.figma.com/file/cdtibukMGySKC04N4nHu4v/mamon.pro-(Copy)-(Copy)?node-id=74677%3A8) at the Devcareer cohort 3 week_2 task it was an awesome experience and my first time working with Figma.
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ This is the screenshot of the task
 
 ### Links
 
-- Solution URL: [Github url](https://your-solution-url.com)
+- Solution URL: [Github url](https://github.com/ifeawoyemi/mamon)
 - Live Site URL: [live url](https://your-live-site-url.com)
 
 ## My process
