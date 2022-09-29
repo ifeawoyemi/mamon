@@ -21,7 +21,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![light-mode](./design/home-1.png)
+![dark-mode](./design/home.png)
+
+
 
 This is the screenshot of the task
 
