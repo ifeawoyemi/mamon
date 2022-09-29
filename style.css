@@ -9,8 +9,14 @@
     --grayish: #F7F7F7;
 }
 
-hr{
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar img {
@@ -20,12 +26,7 @@ hr{
 .dark-mode{
     background-color: var(--black);
     color: var(--white);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    transition: .7s ease;
 }
 
 img{
@@ -33,17 +34,18 @@ img{
     object-fit: contain;
 }
 
-body{
-    font-family: 'Ubuntu', sans-serif;
-    /* margin: 0px 25px;  */
+.line_break{
+    display: flex;
+    color: var(--light-gray);
+    overflow: hidden;
+    margin: 6rem 0rem;
 }
 
-/* .line_break{ 
-    display: flex;
-    justify-content: center;
-    width: 1px;
-} */
-
+.line_break p{
+    width: 92px;
+    padding: 0px 14px;
+    font-size: 14px;
+}
 
 /* *********nav section start********* */
 
@@ -104,6 +106,19 @@ nav{
     color: var(--white);
 }
 
+.navbar ul #contact{
+    background-color: var(--white);
+    color: var(--light-blue);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.navbar ul #contact:hover{
+    color: var(--black);
+    transition: .4s ease-in;
+}
+
 .navbar ul li a:hover{
     cursor: pointer;
     color: purple;
@@ -118,6 +133,7 @@ nav{
 }
 
 .info h1{
+    font-size: 57px;
     margin-bottom: 46px;
 }
 
@@ -141,8 +157,8 @@ nav{
 
 .services{
     display: flex;
-    margin: 4rem 0rem;
-    gap: 30px;
+    padding-top: 5rem;
+    gap: 30px; 
 }
 
 .services img{
@@ -187,23 +203,24 @@ nav{
 /* the footer */
 
 footer{
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 65px;
     background-color: var(--grayish);
-    margin-top: 50px;
+    margin-top: 8rem;
 }
+
 
 footer .social_media img{
     padding-right: 25px;
-}
-
+} 
 
 @media screen and (min-width: 1024px) {
 
-    body{
-       max-width: 70%;
-       margin: auto;
+    .container{
+        width: 935px;
+        margin: auto;
     }
 
     .bar{
@@ -221,12 +238,14 @@ footer .social_media img{
         background-color: transparent;
         display: flex;
         justify-content: space-evenly;
-         margin: 0px 10px; 
+        padding-top: 20px;
+        margin: 0px 10px; 
     }
 
     .navbar ul li{
         float: left;
         padding: 0px 10px;
+        margin: 0px;
     }
 
     .navbar ul li a{
@@ -239,12 +258,12 @@ footer .social_media img{
 
     .navbar ul #contact{
         background-color: var(--light-blue);
-        width: 73px;
-        height: 17px;
+        width: 100px;
+        height: 24px;
         color: var(--white);
         border: none;
-        border-radius: 10px;
-        margin: 93px 0px;
+        border-radius: 5px;
+        padding: 8px;
     }
     .info{
         
@@ -265,7 +284,7 @@ footer .social_media img{
         color: var(--white);
         border: none;
         border-radius: 10px;
-        margin: 1.5rem 0px;
+        margin: 5rem 0rem;
     }
 
     .services_section{
@@ -282,13 +301,21 @@ footer .social_media img{
         grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
 
+    .team{
+        gap: 15px;
+    }
+
     .team_section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
     }
 
-    footer{
-       width: 1024px;
-       object-fit: contain;
+    footer #logo{
+        margin: auto;
+        margin-left: 10rem;
+    }
+    
+    footer .social_media{
+        margin-right: 56px;
     }
 }
