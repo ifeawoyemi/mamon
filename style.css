@@ -47,6 +47,11 @@ img{
     font-size: 14px;
 }
 
+.container{
+    width: 310px;
+    margin: auto;
+}
+
 /* *********nav section start********* */
 
 .logo{
@@ -63,7 +68,6 @@ img{
 .logo h1{
     text-align: center;
     margin-left: 5px;
-    font-size: 20px;
 }
 
 nav{
@@ -133,7 +137,7 @@ nav{
 }
 
 .info h1{
-    font-size: 57px;
+    /* font-size: 57px; */
     margin-bottom: 46px;
 }
 
